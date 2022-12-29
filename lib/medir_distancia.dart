@@ -6,10 +6,9 @@ medirDistancia(double lat1, double lon1, double lat2, double lon2) {
     const double valorRadian = 57.2958;
     double azimut;
 
-    final double latCentro = 36.72314062143207;
-    final double lonCentro = -4.442376451996535;
+    final double latCentro = 40.420894;
+    final double lonCentro = -3.706910;
     final double radioPerimetro = 200;
-
 
     // Valor absoluto y conversión a radianes
     final double lat1Rad = lat1.abs()      * (pi / 180);
